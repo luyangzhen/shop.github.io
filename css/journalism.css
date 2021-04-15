@@ -1,0 +1,124 @@
+/* 1318小班版心 */
+body {
+    background-color: #f9f9f9;
+}
+.ww {
+    width: 1318px;
+    margin: 100px auto 0;
+}
+.pb {
+    width: 100%;
+}
+.banner {
+    position: relative;
+}
+.banner_img {
+    text-align: center;
+}
+.banner_width {
+    position: absolute;
+    top: 430px;
+    width: 1600px;
+    background-color: #fff;
+}
+.banner_ww::before {
+    float: left;
+    content: '';
+    width: 7px;
+    height: 133px;
+    background-color: orange;
+}
+.banner_ww .banner_box {
+    float: left;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+.banner_box li .headline {
+    display: inline-block;
+    font-size: 36px;
+    color: #333;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+.banner_time img, 
+.banner_site02 img {
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.banner_time span, 
+.banner_site02 span {
+    font-size: 18px;
+    line-height: 18px;
+}
+.banner_txt {
+    font-size: 18px;
+    margin-top: 35px;
+}
+.banner_txt p {
+    margin-bottom: 23px;
+    line-height: 35px;
+}
+.explain {
+    margin-bottom: 88px;
+}
+.chapter .up {
+    float: left;
+    height: 495px;
+    margin-right: 18px;
+}
+.chapter .below {
+    float: left;
+    height: 495px;
+}
+.chapter .up_img, .chapter .below_img {
+    position: relative;
+}
+.chapter .up .txt, .below .txt {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    height: 95px;
+    line-height: 95px;
+}
+.chapter .up_img, .below_img {
+    width: 100%;
+    height: 403px;
+}
+.chapter .mask {
+    position: absolute;
+    bottom: 0;
+    width: 650px;
+    height: 116px;
+    line-height: 150px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.up_img .mask::before,
+.below_img .mask::before
+{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 52px;
+    background-color: orange;
+    margin-left: 40px;
+}
+.up_img .mask span,
+.below_img .mask span
+{
+    color: #fff;
+}
+.up_img .mask .mask_txt,
+.below_img .mask .mask_txt
+{
+    font-size: 26px;
+    position: absolute;
+    top: -32px;
+    left: 60px;
+}
+.up_img .mask .mask_time,
+.below_img .mask .mask_time
+{
+    font-size: 22px;
+    padding-left: 11px;
+}

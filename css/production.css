@@ -1,0 +1,211 @@
+body {
+    height: 100%;
+}
+/* 轮播图 */
+.car {
+    position: relative;
+    width: 1920px;
+    height: 710px;
+    text-align: center;
+    overflow: hidden;
+}
+.car .car1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+}
+.car1 li {
+    float: left;
+    text-align: center;
+}
+.car2 {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    margin-left: -150px;
+    width: 300px;
+    height: 15px;
+    line-height: 15px;
+}
+.car2 li {
+    float: left;
+    width: 80px;
+    height: 5px;
+    border: 1px solid #fff;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+.current {
+    background-color: orange;
+}
+
+.but1, .but2 {
+    margin-top: -50px;
+    display: none;
+    width: 100px;
+    height: 100px;
+    line-height: 94px;
+    color: #fff;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.but1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.but2 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.car:hover span {
+    display: block;
+}
+.production {
+    width: 535px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #333;
+    font-size: 30px;
+    color: #fff;
+}
+.production span {
+    margin-left: 46px;
+}
+/* all */
+.all {
+    margin-top: 69px;
+}
+.all .all_nav li {
+    float: left;
+    margin-left: 60px;
+}
+.all_nav {
+    height: 40px;
+}
+.all_nav li a {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333;
+    padding: 0 5px;
+}
+.all_nav li a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.all_img {
+    margin-top: 12px;
+}
+.all_img ul li {
+    float: left;
+    width: 790px;
+    height: 450px;
+    /* background-color: pink; */
+}
+.all_img ul li:nth-child(odd) {
+    margin: 0 20px 20px 0;
+}
+.all_box {
+    position: relative;
+    overflow: hidden;
+}
+.all_box:hover .all_box_bot {
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 0 60px 0 60px;
+}
+.all_box:hover .all_text1 {
+    font-weight: 600;
+    color: #333;
+}
+.all_box:hover .all_text2 {
+    font-weight: 600;
+    color: #333;
+}
+.all_box .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.all_box_bot {
+    padding-left: 56px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 116px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .3s;
+}
+.all_box_bot .or {
+    font-weight: 600;
+    font-size: 56px;
+    color: orange;
+    line-height: 116px;
+}
+.all_box_bot .all_text1 {
+    position: absolute;
+    top: 32px;
+    left: 82px;
+    font-size: 24px;
+    color: #fff;
+}
+.all_box_bot .all_text2 {
+    position: absolute;
+    top: 64px;
+    left: 82px;
+    font-size: 22px;
+    color: #fff;
+}
+.all_box_txt {
+    width: 610px;
+}
+.all_box_txt p {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: #333;
+}
+.all_box_txt .p2 {
+    margin-top: 40px;
+}
+.all_box_txt .more {
+    margin-top: 26px;
+}
+.all_box_txt .more1 {
+    float: right;
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+    background-color: orange;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.view {
+    width: 134px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    margin: 30px auto;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.view a {
+    color: orange;
+    font-weight: 700;
+}

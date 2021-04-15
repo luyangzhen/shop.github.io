@@ -1,0 +1,147 @@
+body {
+    background-color: #f9f9f9;
+}
+.banner {
+    position: relative;
+}
+.banner .case_banner {
+    text-align: center;
+}
+.banner .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.banner_box {
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    margin-left: -800px;
+    background-color: #fff;
+}
+.banner_theme {
+    width: 1318px;
+    margin: 100px auto 60px;
+}
+.banner_theme::before {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 133px;
+    background-color: orange;
+}
+.banner_theme li h1 {
+    font-size: 36px;
+    color: #2b2b2b;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+.banner_theme li:nth-child(n) {
+    padding-left: 30px;
+}
+.banner_theme li {
+    line-height: 20px;
+}
+.banner_theme li img {
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.banner_theme li span {
+    font-size: 18px;
+}
+.time_img span {
+    padding-left: 3px;
+}
+.banner_theme li p {
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.banner_theme li:last-child {
+    margin-top: 15px;
+}
+.case_img_width {
+    width: 1318px;
+    margin: auto;
+}
+.case_img a {
+    display: inline-block;
+    padding-bottom: 70px;
+}
+.case_img a:nth-of-type(3) {
+    border-bottom: 1px solid #adadad;
+}
+.scene span{
+    display: inline-block;
+    font-size: 24px;
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+.piece {
+    margin-top: 76px;
+}
+.piece ul li {
+    float: left;
+}
+.piece ul li:nth-child(1) {
+    margin-right: 18px;
+}
+.piece ul li .up,
+.piece ul li .below
+{
+    width: 650px;
+    height: 495px;
+}
+.piece ul li .up .up_img,
+.piece ul li .below .below_img
+{
+    position: relative;
+}
+.piece ul li .txt {
+    font-size: 18px;
+    width: 100%;
+    height: 95px;
+    line-height: 95px;
+    color: #333;
+    padding-left: 35px;
+    text-align: center;
+}
+.up_img .mask,
+.below_img .mask
+{
+    position: absolute;
+    bottom: 0;
+    width: 650px;
+    height: 116px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.up_img .mask::before,
+.below_img .mask::before
+{
+    position: absolute;
+    top: 30px;
+    left: 38px;
+    content: '';
+    width: 6px;
+    height: 52px;
+    background-color: orange;
+}
+.mask .mask_txt {
+    position: absolute;
+    top:22px;
+    left: 55px;
+    font-size: 26px;
+}
+.mask .mask_time {
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    font-size: 22px;
+}
+

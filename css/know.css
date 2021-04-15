@@ -1,0 +1,189 @@
+body {
+    background-color: #ececec;
+}
+.banner {
+    position: relative;
+}
+.banner_img {
+    text-align: center;
+}
+.banner_txt {
+    position: absolute;
+    bottom: 89px;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 259px;
+}
+.banner_txt::before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    width: 12px;
+    height: 72px;
+    background-color: orange;
+}
+.banner_txt span:nth-child(1) {
+    margin-left: 42px;
+}
+.banner_txt span {
+    display: inline-block;
+    font-size: 70px;
+    color: #fff;
+    line-height: 120px;
+    margin: 0 30px 0 44px;
+}
+.banner_txt em {
+    position: absolute;
+    top: 56px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.brief {
+    font-size: 30px;
+    color: #fff;
+    width: 533px;
+    height: 68px;
+    line-height: 68px;
+    background-color: #3d3d3d;
+    padding-left: 30px;
+}
+.brief_box {
+    width: 100%;
+    height: 648px;
+    background-color: #fff;
+}
+.brief_box .brief_log {
+    float: left;
+    width: 655px;
+    text-align: center;
+    padding-top: 144px;
+}
+.brief_log .brief_sp {
+    display: inline-block;
+    padding-top: 172px;
+    color: orange;
+    font-size: 33px;
+}
+.brief_log .brief_sp li {
+    float: left;
+    padding-right: 21px;
+}
+.brief_log .brief_sp li:nth-child(even) {
+    line-height: 48px;
+    color: orange;
+}
+.brief_txt {
+    float: left;
+    padding-top: 84px;
+}
+.brief_txt p {
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #2b2b2b;
+    margin-bottom: 15px;
+}
+.brief_txt ul {
+    margin-top: 72px;
+}
+.brief_txt ul li {
+    float: left;
+    margin-right: 15px;
+    font-size: 24px;
+    color: #2b2b2b;
+}
+.brief_txt ul li a {
+    font-size: 24px;
+    color: #2b2b2b;
+}
+.dynamic {
+    font-size: 30px;
+    color: #fff;
+    width: 533px;
+    height: 68px;
+    line-height: 68px;
+    background-color: #3d3d3d;
+    padding-left: 30px;
+}
+.dynamic_box {
+    width: 100%;
+}
+.dynamic_left {
+    float: left;
+    position: relative;
+    width: 790px;
+    height: 450px;
+}
+.dynamic_right {
+    float: right;
+    position: relative;
+    width: 790px;
+    height: 450px;
+}
+.dynamic_left .mask,
+.dynamic_right .mask
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 133px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.dynamic_left .mask::before,
+.dynamic_right .mask::before
+{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 50px;
+    margin: 40px 0 0 60px;
+    background-color: orange;
+}
+.dynamic_left .mask li,
+.dynamic_right .mask li
+{
+    display: inline-block;
+    color: #fff;
+}
+.dynamic_left .mask li:nth-child(1),
+.dynamic_right .mask li:nth-child(1)
+{
+    position: absolute;
+    top: 32px;
+    left: 80px;
+    font-size: 26px;
+}
+.dynamic_left .mask li:nth-child(2),
+.dynamic_right .mask li:nth-child(2)
+{
+    position: absolute;
+    top: 63px;
+    left: 80px;
+    font-size: 22px;
+}
+.more {
+    text-align: center;
+}
+.more a {
+    display: inline-block;
+    width: 127px;
+    height: 39px;
+    line-height: 39px;
+    border: 2px solid orange;
+    text-align: center;
+    font-size: 16px;
+    color: orange;
+    font-weight: 700;
+    margin: 36px 0 97px 0;
+}
+.vehicle {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 85px;
+    height: 908px;
+    margin-bottom: 173px;
+}

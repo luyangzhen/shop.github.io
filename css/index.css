@@ -1,0 +1,266 @@
+/* 轮播图 */
+.car {
+    position: relative;
+    width: 1920px;
+    height: 710px;
+    text-align: center;
+    overflow: hidden;
+}
+.car .car1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+}
+.car1 li {
+    float: left;
+    text-align: center;
+}
+.car2 {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    margin-left: -150px;
+    width: 300px;
+    height: 15px;
+    line-height: 15px;
+}
+.car2 li {
+    float: left;
+    width: 80px;
+    height: 5px;
+    border: 1px solid #fff;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.current {
+    background-color: orange;
+}
+
+.but1, .but2 {
+    margin-top: -50px;
+    display: none;
+    width: 100px;
+    height: 100px;
+    line-height: 94px;
+    color: #fff;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.but1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.but2 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+.car:hover span {
+    display: block;
+}
+.banner {
+    width: 100%;
+    height: 660px;
+    background-color: #fff;
+    padding-top: 74px;
+}
+.headline {
+    font-size: 32px;
+    color: orange;
+    text-align: center;
+}
+.headline span {
+    display: inline-block;
+    padding: 0 10px 0;
+}
+.banner_txt {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 38px;
+    font-size: 20px;
+    color: #2b2b2b;
+}
+.brand {
+    width: 100%;
+    text-align: center;
+    margin-top: 110px;
+}
+.brand img {
+    margin: 0 30px;
+}
+.brand_box ul li {
+    float: left;
+    position: relative;
+    width: 800px;
+    height: 450px;
+}
+.brand_box ul li .brand_a {
+    display: inline-block;
+    width: 800px;
+    height: 450px;
+}
+.behind {
+    position: absolute;
+    bottom: 0;
+    width: 800px;
+    height: 0;
+    background-color: transparent;
+    overflow: hidden;
+    transition: all .3s;
+    padding: 60px 124px 0 60px;
+}
+.brand_box ul li:hover .behind {
+    height: 450px;
+    background-color: #f3f3f3;
+}
+.behind .hd {
+    font-size: 30px;
+    color: #424242;
+    font-weight: 700;
+}
+.behind .hd strong {
+    color: orange;
+}
+.behind p {
+    line-height: 35px;
+    font-size: 18px;
+    color: #333;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.fr {
+    margin-top: 25px;
+}
+.fr .df_img {
+    float: left;
+}
+.fr .more {
+    float: right;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: orange;
+}
+.fr .more a {
+    font-size: 16px;
+    color: #fff;
+}
+.more_01 {
+    width: 127px;
+    height: 38px;
+    line-height: 38px;
+    border: 2px solid orange;
+    text-align: center;
+    margin: 35px auto 100px;
+}
+.more_01 a {
+    font-size: 16px;
+    font-weight: 700;
+    color: orange;
+}
+.surpass {
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+}
+.surpass .mask {
+    position: absolute;
+    top: 63px;
+    width: 100%;
+    height: 296px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+.mask_box span {
+    position: absolute;
+    top: 100px;
+    left: 472px;
+    font-size: 70px;
+    color: #fff;
+    letter-spacing: 18px;
+    line-height: 20px;
+}
+.mask_box em {
+    position: absolute;
+    top: 55px;
+    right: 863px;
+    color: orange;
+    font-size: 65px;
+}
+.mask_box a {
+    position: absolute;
+    top: 80px;
+    right: 539px;
+    width: 264px;
+    height: 65px;
+    line-height: 62px;
+    font-size: 29px;
+    color: #fff;
+    border: 3px solid #fff;
+}
+.mask_bot {
+    margin: 217px auto;
+}
+.mask_bot strong {
+    font-size: 18px;
+    color: #2d2d2d;
+}
+.mask_bot i {
+    padding: 0 60px;
+    color: orange;
+    font-weight: 700;
+    font-size: 25px;
+}
+.dynamic {
+    width: 1600px;
+}
+.dynamic_left {
+    position: relative;
+    float: left;
+    width: 790px;
+    height: 450px;
+}
+.dynamic_right {
+    position: relative;
+    float: right;
+    width: 790px;
+    height: 450px;
+}
+.dynamic_mask {
+    position: absolute;
+    bottom: 0;
+    width: 790px;
+    height: 134px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.dynamic_mask::before {
+    content: '';
+    position: absolute;
+    top: 38px;
+    left: 60px;
+    width: 5px;
+    height: 50px;
+    background-color: orange;
+}
+.dynamic_mask span:nth-child(1) {
+    position: absolute;
+    top: 30px;
+    left: 78px;
+    font-size: 26px;
+}
+.dynamic_mask span:nth-child(2) {
+    position: absolute;
+    top: 62px;
+    left: 78px;
+    font-size: 22px;
+}
